@@ -31,7 +31,7 @@ Attendance Tracker is a web application built with React that helps students tra
 
 1. Clone the repository
 ```bash
-git clone https://github.com/aaryan4985.AttendU.git
+git clone https://github.com/aaryan4985/AttendU.git
 ```
 
 2. Install dependencies
