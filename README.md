@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# 📚 AttendU
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Attendance Tracker is a web application built with React that helps students track their class attendance across multiple subjects. It provides comprehensive insights into attendance percentages, remaining classes needed, and potential medical day requirements.
 
-In the project directory, you can run:
+## 🌟 Features
 
-### `npm start`
+### Subject Management
+- Add multiple subjects
+- Specify maximum hours and attended hours for each subject
+- Delete subjects as needed
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Attendance Calculations
+- Calculate attendance percentage for each subject
+- Determine number of classes needed to reach 75% attendance
+- Identify medical day requirements for subjects between 65-75% attendance
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Data Visualization
+- Bar Chart showing hours breakdown per subject
+- Pie Chart displaying attendance status (above/below 75%)
 
-### `npm test`
+## 🚀 Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
+- Tailwind CSS
+- Recharts (for data visualization)
+- Lucide React (for icons)
 
-### `npm run build`
+## 🔧 Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository
+```bash
+git clone https://github.com/aaryan4985.AttendU.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install dependencies
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Start the development server
+```bash
+npm start
+```
 
-### `npm run eject`
+## 💡 How to Use
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Add Subjects**: 
+   - Enter subject name in the input field
+   - Click "Add Subject" or press Enter
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Input Hours**:
+   - For each subject, enter:
+     - Maximum total hours for the subject
+     - Hours you have attended
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Calculate Attendance**:
+   - Click "Calculate Attendance" to see:
+     - Attendance percentage
+     - Remaining classes needed to reach 75%
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. **Medical Days**:
+   - Click "Medical Days" to determine potential medical day applications for subjects between 65-75% attendance
 
-## Learn More
+## 📊 Visualization
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The app provides two charts:
+- **Hours Breakdown**: Compare attended vs. maximum hours
+- **Attendance Overview**: Proportion of subjects above/below 75% attendance
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🎨 Design
 
-### Code Splitting
+- Responsive design
+- Dark gradient background
+- Glassmorphism-style UI
+- Animated interactions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🤝 Contributing
 
-### Analyzing the Bundle Size
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📜 License
 
-### Making a Progressive Web App
+Distributed under the MIT License. See `LICENSE` for more information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🐞 Issues
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Report any issues or suggest improvements by opening an issue in the GitHub repository.
